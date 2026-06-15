@@ -77,19 +77,32 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
-      { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { title: "Casa Exotique | Luxury Interior Designers & Turnkey Design Build Company Gurgaon" },
+      { name: "description", content: "Casa Exotique is a Gurgaon-based luxury architecture and interior design-build studio specializing in bespoke residences, hospitality spaces, luxury retail, developer experience centers, and turnkey execution across India." },
+      { name: "author", content: "Casa Exotique" },
+      { property: "og:site_name", content: "Casa Exotique" },
+      { property: "og:title", content: "Casa Exotique | Luxury Architecture & Interiors, Gurgaon" },
+      { property: "og:description", content: "Bespoke residences, hospitality environments, and developer-led experiences. Architecture, interiors and turnkey execution under one roof." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
-      { name: "twitter:site", content: "@Lovable" },
     ],
     links: [
       {
         rel: "stylesheet",
         href: appCss,
+      },
+      {
+        rel: "preconnect",
+        href: "https://fonts.googleapis.com",
+      },
+      {
+        rel: "preconnect",
+        href: "https://fonts.gstatic.com",
+        crossOrigin: "anonymous",
+      },
+      {
+        rel: "stylesheet",
+        href: "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,400&family=Inter:wght@300;400;500;600&display=swap",
       },
     ],
   }),

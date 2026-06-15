@@ -81,10 +81,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "description", content: "Casa Exotique is a Gurgaon-based luxury architecture and interior design-build studio specializing in bespoke residences, hospitality spaces, luxury retail, developer experience centers, and turnkey execution across India." },
       { name: "author", content: "Casa Exotique" },
       { property: "og:site_name", content: "Casa Exotique" },
-      { property: "og:title", content: "Casa Exotique | Luxury Architecture & Interiors, Gurgaon" },
-      { property: "og:description", content: "Bespoke residences, hospitality environments, and developer-led experiences. Architecture, interiors and turnkey execution under one roof." },
+      { property: "og:title", content: "Casa Exotique | Luxury Interior Designers & Turnkey Design Build Company Gurgaon" },
+      { property: "og:description", content: "Casa Exotique is a Gurgaon-based luxury architecture and interior design-build studio specializing in bespoke residences, hospitality spaces, luxury retail, developer experience centers, and turnkey execution across India." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
+      { name: "twitter:title", content: "Casa Exotique | Luxury Interior Designers & Turnkey Design Build Company Gurgaon" },
+      { name: "twitter:description", content: "Casa Exotique is a Gurgaon-based luxury architecture and interior design-build studio specializing in bespoke residences, hospitality spaces, luxury retail, developer experience centers, and turnkey execution across India." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/c0c4b882-4197-4d72-b744-34341a6e503c/id-preview-9ebef79d--7a090436-8011-45da-b97d-9da82cc963d9.lovable.app-1781502420335.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/c0c4b882-4197-4d72-b744-34341a6e503c/id-preview-9ebef79d--7a090436-8011-45da-b97d-9da82cc963d9.lovable.app-1781502420335.png" },
     ],
     links: [
       {

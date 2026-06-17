@@ -1,6 +1,7 @@
 import { Link } from "@tanstack/react-router";
 import { useState, type ReactNode } from "react";
 import logoIconAsset from "@/assets/casa-logo-icon.png.asset.json";
+import logoAsset from "@/assets/casa-logo-original.webp.asset.json";
 
 const NAV = [
   { to: "/", label: "Home" },
